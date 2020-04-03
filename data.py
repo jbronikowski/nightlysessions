@@ -1,5 +1,5 @@
 import csv
-
+import requests
 
 bug_id_input = input("What is the bug id? ")
 key_id_input = input("What is the column? ")
