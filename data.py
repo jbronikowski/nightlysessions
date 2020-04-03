@@ -1,8 +1,3 @@
-import csv
-import requests
-
-import pyats
-
 bug_id_input = input("What is the bug id? ")
 key_id_input = input("What is the column? ")
 value_id_input = input("What is the " + key_id_input + " you are looking for? ")
