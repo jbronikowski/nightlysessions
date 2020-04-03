@@ -1,6 +1,8 @@
 import csv
 import requests
 
+import pyats
+
 bug_id_input = input("What is the bug id? ")
 key_id_input = input("What is the column? ")
 value_id_input = input("What is the " + key_id_input + " you are looking for? ")
@@ -19,7 +21,7 @@ def search_data(bug_id, key, value):
                 print(row['Hostname'], row['IP Address'], row['Serial Number'], row['Product ID'], row['SW Version'])
     print('######################')
 
-search_data(bug_id_input, key_id_input, value_id_input)
+
 # search_data('csv5678', 'Serial Number', 'FDO2143V0TC')
 # search_data('csv0000', 'SW Version', '3.6.6E')
 # search_data('csv1111', 'IP Address', '10.1.100.40')
