@@ -13,9 +13,17 @@ for row in csv_reader:
     # if 'FOC1912X1BV' in row['Serial Number']:
     #print(row['Product ID'])
     product = row['Product ID']
-    if product not in products_list:
-        products_list.append(product)
+    # if product not in products_list:
+    #     products_list.append(product)
+    
+    
+    if product in products:
+        products[product] = products[product] + 1
+    else:
+        products[product] = 1
+        #products['WS-C3750X-24T-S'] = 1
 
-print(products_list)
+#print(products_list)
+print(products)
 
 
