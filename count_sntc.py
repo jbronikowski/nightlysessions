@@ -51,14 +51,14 @@ print(json.dumps(products, indent=4))
 # for key, value in sorted_d:
 #     print(key,value)
 
-{ 
-    'AIR-CAP1602E-A-K9': {
-                            "13.3" : 2,
-                            "15.6" : 6
-                        },
-    'AIR-LAP1242AG-A-K9': {
-                            "12.16" : 5,
-                            "3.6" : 7
-                        }
-}
+# { 
+#     'AIR-CAP1602E-A-K9': {
+#                             "13.3" : 2,
+#                             "15.6" : 6
+#                         },
+#     'AIR-LAP1242AG-A-K9': {
+#                             "12.16" : 5,
+#                             "3.6" : 7
+#                         }
+# }
 
